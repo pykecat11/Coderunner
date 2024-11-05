@@ -120,7 +120,7 @@ class CodeBlock extends HTMLElement {
       .coderunnerContainer {
         overflow: auto;
         resize: vertical;
-        height: ${this.code.split("\n").length + 1 * 1.5}rem;
+        height: ${this.code.split("\n").length * 19}px;
         min-height: 100px;
       }
       .flexCol {
